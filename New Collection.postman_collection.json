@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "cdf13c88-3839-470a-a64c-38113737b9ab",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28065803",
+		"_collection_link": "https://grey-shadow-393023.postman.co/workspace/New-Team-Workspace~07b43aac-1b38-4460-ad72-0b880ade3515/collection/28065803-cdf13c88-3839-470a-a64c-38113737b9ab?action=share&source=collection_link&creator=28065803"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/upload_csv/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://127.0.0.1:8000/upload_csv/"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/get_movies/?page=1&page_size=10000&sort_by=rating&year=2014",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/get_movies/?page=1&page_size=10000&sort_by=rating&year=2014",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"get_movies",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "10000"
+						},
+						{
+							"key": "language",
+							"value": "English",
+							"disabled": true
+						},
+						{
+							"key": "sort_by",
+							"value": "rating"
+						},
+						{
+							"key": "year",
+							"value": "2014"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/get_movies/?page=1&page_size=10000&year=2014",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/get_movies/?page=1&page_size=10000&year=2014",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"get_movies",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "10000"
+						},
+						{
+							"key": "language",
+							"value": "English",
+							"disabled": true
+						},
+						{
+							"key": "sort_by",
+							"value": "rating",
+							"disabled": true
+						},
+						{
+							"key": "year",
+							"value": "2014"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/get_movies/?year=2014",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/get_movies/?page=1000&page_size=10000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"get_movies",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1000"
+						},
+						{
+							"key": "page_size",
+							"value": "10000"
+						},
+						{
+							"key": "language",
+							"value": "English",
+							"disabled": true
+						},
+						{
+							"key": "sort_by",
+							"value": "rating",
+							"disabled": true
+						},
+						{
+							"key": "year",
+							"value": "2014",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
