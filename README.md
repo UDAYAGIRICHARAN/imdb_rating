@@ -1,7 +1,7 @@
 
-# Django Project: CSV Uploader (Dockerized)
+# Django Project: 
 
-This project is a Django application that provides an interface to upload and process CSV files. It is containerized using Docker.
+This project is a Django application that provides an interface to upload and process CSV files.
 
 ## Prerequisites
 
